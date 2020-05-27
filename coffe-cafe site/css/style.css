@@ -1,0 +1,89 @@
+.bgnav{
+  max-width: 1220px;
+  margin: 0 auto;  
+
+}
+
+body{
+  /*font-size: 20px;*/
+}
+  #logo{
+    height:200px ;
+    width:auto;
+    float: left;
+  }
+  .nav-bar{
+    float: right;
+    margin:40px;
+    
+  }
+
+  .nav-bar a{
+    text-decoration: none;
+    font-size: 90%;
+    font-weight: 100;
+    color:red;
+  }
+  .nav-bar a:hover{
+   border-bottom: 2px solid #bf55ec;
+
+
+  }
+  .clear:after{
+    visibility: hidden;
+    content:".";
+    clear: both;
+    display:block;
+    height: 0px;
+
+  }
+  .Welcome{
+    
+    /*width:1220px;*/
+   position:absolute;
+   top:50%;
+   left:50%;
+   transform:translate(-50%,0%);
+   color:#fff;
+   
+
+
+
+  }
+  header{
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url("../images/cafe-coffe.jpg");
+    background-size: cover;
+    height:100vh;
+
+  }
+  *{
+    margin: 0px;
+    padding: 0px;
+
+  }
+  .cool{
+    animation: harsh 1s infinite;
+
+  }
+  @keyframes harsh{
+    25%{color:red;}
+    50%{color:purple;}
+
+  }
+  @media only screen and (max-width:1295px){
+   h1{
+      font-size:32px;
+  }
+
+
+  }
+  @media only screen and (max-width:850px){
+  h1{
+    font-size:20px;
+    
+  }
+}
+@media only screen and (max-width:875px){
+  .nav-bar{display: none;}
+}
